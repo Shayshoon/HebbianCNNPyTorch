@@ -1,0 +1,9 @@
+scope,method,method_label,conditional,total_scalar_operations,display_unit,evidence_scope
+one_batch,A1,A1,False,8667340084,operations,"Analytical training-core cost for one batch"
+one_batch,A2,A2 conditional,True,1380339683,operations,"Conditional sparse-aware analytical training-core cost for one batch"
+one_batch,B,B,False,17267771387,operations,"Current-surrogate analytical training-core cost for one batch"
+one_batch,BP,BP,False,24430482934,operations,"Analytical forward-plus-backward training-core cost for one batch"
+equal_20_epochs,A1,A1,False,86666040782800,operations,"Analytical training-core cost for 20 epochs"
+equal_20_epochs,A2,A2 conditional,True,13799879559140,operations,"Conditional sparse-aware analytical training-core cost for 20 epochs"
+equal_20_epochs,B,B,False,172677356291000,operations,"Current-surrogate analytical training-core cost for 20 epochs"
+equal_20_epochs,BP,BP,False,244304829340020,operations,"Analytical forward-plus-backward training-core cost for 20 epochs"

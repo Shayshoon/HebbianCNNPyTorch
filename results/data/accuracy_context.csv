@@ -1,0 +1,7 @@
+source,source_location,evidence_type,method,method_label,epochs,feature_fraction_percent,accuracy_percent,uncertainty_percent,runs,notes
+original_paper,Page 6 Table 1,exact,HB,HB triangle + pruning,20,100,64.55,0.4,10,"Table value; prose elsewhere reports a different uncertainty"
+saved_notebook,Final saved output,exact,HB,HB notebook run,20,100,64.65,,1,"Single saved run; default Ridge; final 1600 features"
+comparison_paper,Page 3 Figure 2,approximate_graph_read,HB,HB,20,100,66,,10,"Approximate visual read; shaded SD over 10 runs is not numerically reported"
+comparison_paper,Page 3 Figure 2,approximate_graph_read,BP,BP,20,100,57,,10,"Approximate visual read; shaded SD over 10 runs is not numerically reported"
+comparison_paper,Page 3 Figure 2,approximate_graph_read,HB,HB,100,100,66,,10,"Approximate visual read; shaded SD over 10 runs is not numerically reported"
+comparison_paper,Page 3 Figure 2,approximate_graph_read,BP,BP,100,100,70,,10,"Approximate visual read; shaded SD over 10 runs is not numerically reported"

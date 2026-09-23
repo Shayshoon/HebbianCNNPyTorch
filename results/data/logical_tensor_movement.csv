@@ -1,0 +1,5 @@
+method,method_label,conditional,logical_movement_megabytes,evidence_scope
+A1,A1,False,239.950,"Analytical logical tensor movement per compared training unit"
+A2,A2 conditional,True,139.038,"Conditional sparse-aware analytical logical tensor movement per compared training unit"
+B,B,False,377.999,"Analytical logical tensor movement per compared training unit"
+BP,BP,False,366.434,"Analytical logical tensor movement per compared training unit"

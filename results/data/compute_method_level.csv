@@ -1,0 +1,6 @@
+method,method_label,conditional,epochs,total_scalar_operations,evidence_scope
+A1,A1,False,20,112590041834287,"Full method-level analytical total, including shared workflow costs"
+A2,A2 conditional,True,20,35365252130627,"Full method-level conditional sparse-aware analytical total, including shared workflow costs"
+B,B,False,20,198609206182487,"Full method-level analytical total for current surrogate, including shared workflow costs"
+BP,BP 20 epochs,False,20,245157703690020,"Full method-level analytical total"
+BP,BP 100 epochs,False,100,1222377021050100,"Full method-level analytical total"

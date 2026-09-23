@@ -1,0 +1,9 @@
+comparison,comparison_label,method,method_label,conditional,epochs,total_scalar_operations,matched_accuracy,evidence_scope
+configured,Configured training budgets,A1,A1,False,20,86666040782800,False,"Configured Hebbian 20 epochs"
+configured,Configured training budgets,A2,A2 conditional,True,20,13799879559140,False,"Configured Hebbian 20 epochs; conditional sparse-aware"
+configured,Configured training budgets,B,B,False,20,172677356291000,False,"Configured Hebbian 20 epochs; current surrogate"
+configured,Configured training budgets,BP,BP,False,100,1221524146700100,False,"Configured BP 100 epochs"
+convergence_sensitivity,Convergence sensitivity,A1,A1,False,5,21660990152800,False,"Illustrative Hebbian stabilization sensitivity at approximately 5 epochs"
+convergence_sensitivity,Convergence sensitivity,A2,A2 conditional,True,5,3447331936640,False,"Illustrative Hebbian stabilization sensitivity at approximately 5 epochs; conditional sparse-aware"
+convergence_sensitivity,Convergence sensitivity,B,B,False,5,43169070888500,False,"Illustrative Hebbian stabilization sensitivity at approximately 5 epochs; current surrogate"
+convergence_sensitivity,Convergence sensitivity,BP,BP,False,100,1221524146700100,False,"BP reference at 100 epochs; not an equal-accuracy comparison"

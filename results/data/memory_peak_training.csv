@@ -1,0 +1,11 @@
+method,method_label,conditional,scope,peak_megabytes,reference_class,evidence_scope
+A1,A1,False,Optimized layer-local core,49.743,training,"Estimated optimized layer-local peak"
+A1,A1,False,Explicit-unfold reference core,143.708,training,"Reference implementation peak with explicit unfold"
+A1,A1,False,Optimized method-level + ZCA,87.492,training,"Estimated optimized method-level peak including persistent ZCA"
+A2,A2 conditional,True,Optimized layer-local core,42.760,training,"Conditional sparse-aware estimated optimized layer-local peak"
+A2,A2 conditional,True,Optimized method-level + ZCA,80.509,training,"Conditional sparse-aware estimated optimized method-level peak including persistent ZCA"
+B,B,False,Optimized layer-local core,106.299,training,"Estimated optimized layer-local peak"
+B,B,False,Notebook named tensors + ZCA,278.557,training,"Notebook-oriented named-tensor reference including ZCA"
+BP,BP,False,Retained-forward baseline,72.233,baseline,"Backpropagation retained-forward baseline"
+BP,BP,False,Optimized one-grad-buffer,103.593,optimized,"Backpropagation optimized one-gradient-buffer reference"
+BP,BP,False,Conservative two-grad envelope,134.953,conservative,"Backpropagation conservative two-gradient-buffer envelope"

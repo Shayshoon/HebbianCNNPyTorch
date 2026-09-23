@@ -1,0 +1,5 @@
+stage,stage_label,peak_megabytes,evidence_scope
+normalized_sample_pair,Normalized sample pair,221.256,"One-time ZCA construction working-set reference"
+covariance_eigensystem,Covariance/eigensystem named payload,296.778,"One-time ZCA construction working-set reference"
+reconstruction_peak,Reconstruction peak,372.276,"One-time ZCA construction peak reference"
+persistent_zca_matrix,Persistent ZCA matrix,37.749,"Persistent matrix retained after construction"

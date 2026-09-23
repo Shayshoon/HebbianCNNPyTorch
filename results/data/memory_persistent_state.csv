@@ -1,0 +1,5 @@
+method,method_label,conditional,persistent_megabytes,evidence_scope
+A1,A1,False,7.089,"Persistent state estimate"
+A2,A2 conditional (CSR32),True,0.106,"Persistent sparse-aware state estimate using CSR int32"
+B,B,False,10.677,"Persistent state estimate"
+BP,BP + Adam,False,14.488,"Persistent parameters plus Adam state estimate"

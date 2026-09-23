@@ -1,0 +1,5 @@
+case,total_scalar_operations,evidence_scope
+lower_bound,38654705664,"Non-exact analytical sensitivity bound for ZCA eigendecomposition"
+upper_bound,289910292480,"Non-exact analytical sensitivity bound for ZCA eigendecomposition"
+A1_total_impact_lower_percent,0.019,"Resulting lower sensitivity impact on a Hebbian full-method total"
+A2_total_impact_upper_percent,0.820,"Resulting upper sensitivity impact on a Hebbian full-method total"
